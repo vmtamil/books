@@ -110,7 +110,7 @@ const getbooks = (): Prisma.booksCreateInput[] => [
 const getprice_details = (): Prisma.price_detailsCreateInput[] => [
   {
     p_id: "1234",
-    selling_price: "356",
+    selling_price: "400",
     actual_price: "456",
     discount: "10%",
     Book: "Harry potter",
@@ -120,7 +120,7 @@ const getprice_details = (): Prisma.price_detailsCreateInput[] => [
 [
   {
     p_id: "1235",
-    selling_price: "658",
+    selling_price: "536",
     actual_price: "788",
     discount: "32%",
     Book: "The Exorcist",
@@ -130,7 +130,7 @@ const getprice_details = (): Prisma.price_detailsCreateInput[] => [
 [
   {
     p_id: "1236",
-    selling_price: "786",
+    selling_price: "767",
     actual_price: "982",
     discount: "22%",
     Book: "Wings of fire",
@@ -140,9 +140,9 @@ const getprice_details = (): Prisma.price_detailsCreateInput[] => [
 [
   {
     p_id: "1237",
-    selling_price: "398",
+    selling_price: "295",
     actual_price: "546",
-    discount: "22%",
+    discount: "54%",
     Book: "All the light we cannot see",
   },
 ];
@@ -150,7 +150,7 @@ const getprice_details = (): Prisma.price_detailsCreateInput[] => [
 [
   {
     p_id: "1238",
-    selling_price: "678",
+    selling_price: "449",
     actual_price: "999",
     discount: "45%",
     Book: "The wager: A tale of shipwreck, mutiny and murder",
