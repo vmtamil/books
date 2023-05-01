@@ -212,7 +212,7 @@ const getevents = (): Prisma.eventsCreateInput[] => [
   },
 ];
 
-const getevents = (): Prisma.events_org_detailsCreateInput[] => [
+const getevents_org_details = (): Prisma.events_org_detailsCreateInput[] => [
   {
     organiser_details_id: "001",
     name: "xyz",
